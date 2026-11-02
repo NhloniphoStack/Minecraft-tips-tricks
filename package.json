@@ -1,0 +1,32 @@
+{
+  "name": "minecraft-tips",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check",
+    "format": "biome format --write"
+  },
+  "dependencies": {
+    "@next/env": "^16.4.3",
+    "next": "16.4.3",
+    "openai": "^7.47.0",
+    "pg": "^8.23.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-spinners": "^0.17.1",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.2",
+    "@types/node": "^20",
+    "@types/pg": "^8.23.1",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "typescript-plugin-css-modules": "^5.3.0"
+  }
+}

@@ -1,0 +1,18 @@
+
+
+.submit-container{
+    width: min(100% - 2rem, 1200px);
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+.tip-text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(161, 161, 161);
+}
+
+.submit-layout{
+    max-width: 620px;
+    margin: 0 auto;
+}

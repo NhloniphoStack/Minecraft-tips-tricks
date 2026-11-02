@@ -1,0 +1,20 @@
+
+
+.tips-container{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.similar-text{
+    color: rgb(255, 204, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 600px) {
+     .tips-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+     }
+}

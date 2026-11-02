@@ -1,0 +1,14 @@
+
+.option-block{
+  width: 100%;
+  background-color: #737373;
+  
+  padding: 20px;
+  min-height: 130px;
+  transition: 0.3s ease;
+  border: 2px solid black;
+}
+
+.option-block:hover{
+  transform: scale(1.1);
+}

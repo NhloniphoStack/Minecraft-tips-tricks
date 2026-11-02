@@ -1,0 +1,17 @@
+.category-nav{
+margin-top: 20px;
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(0, 120px));
+gap: 10px;
+ 
+}
+
+
+@media (max-width: 600px) {
+    .category-nav{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(0, 68px));
+       gap: 10px;
+    }
+}
+

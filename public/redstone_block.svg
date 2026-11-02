@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="64" height="64" shape-rendering="crispEdges">
+  <!-- Redstone Block - more cartoony 2D style -->
+  <rect width="16" height="16" fill="#BB1111"/>
+  
+  <!-- bright top edge -->
+  <rect x="0" y="0" width="16" height="3" fill="#EE3333"/>
+  <rect x="1" y="1" width="14" height="1" fill="#FF6666"/>
+  
+  <!-- bottom shadow -->
+  <rect x="0" y="13" width="16" height="3" fill="#880000"/>
+  
+  <!-- bold horizontal bands -->
+  <rect x="2" y="4" width="12" height="2" fill="#FF5555"/>
+  <rect x="2" y="7" width="12" height="2" fill="#FF5555"/>
+  <rect x="2" y="10" width="12" height="2" fill="#FF5555"/>
+  
+  <!-- vertical connectors -->
+  <rect x="3" y="4" width="3" height="8" fill="#DD2222"/>
+  <rect x="10" y="4" width="3" height="8" fill="#DD2222"/>
+  
+  <!-- glowing nodes -->
+  <rect x="3" y="5" width="3" height="1" fill="#FFAAAA"/>
+  <rect x="10" y="5" width="3" height="1" fill="#FFAAAA"/>
+  <rect x="3" y="8" width="3" height="1" fill="#FFAAAA"/>
+  <rect x="10" y="8" width="3" height="1" fill="#FFAAAA"/>
+  <rect x="3" y="11" width="3" height="1" fill="#FFAAAA"/>
+  <rect x="10" y="11" width="3" height="1" fill="#FFAAAA"/>
+  
+  <!-- center spark -->
+  <rect x="7" y="7" width="2" height="2" fill="#FFCCAA"/>
+</svg>

@@ -1,0 +1,44 @@
+.hero-section{
+ position: relative;
+ overflow: hidden;
+ white-space: 100%;
+ background-color: #8B5A2B;
+ color:rgb(255, 253, 253);
+}
+
+.hero-image{
+  width: 100%;
+  object-fit: cover;
+  
+  max-height: 350px;
+}
+
+.content{
+  position: absolute;
+ 
+  display: flex;
+  gap: 10px;
+  inset: 90px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.start_container{
+  background-color: gray;
+  max-width: 170px;
+  text-align: center;
+  padding: 7px 20px;
+  margin-top: 6px;
+  border-radius: 2px;
+  border: 2px solid black;
+}
+
+.hero_heading{
+  text-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.3);
+  font-size: 2.4rem;
+}
+
+.shadow-text{
+  text-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.8);
+}

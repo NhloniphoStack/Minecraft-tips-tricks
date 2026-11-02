@@ -1,0 +1,89 @@
+
+
+.tip-form input{
+    width: 100%;
+    border: 2px solid black;
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+
+}
+
+.tip-form input:focus{
+    border: 2px solid #4d7e26;
+}
+
+.tip-form textarea:focus{
+    border: 2px solid #4d7e26;
+}
+
+.tip-form textarea{
+    width: 100%;
+    border: 2px solid black;
+    padding: 15px;
+    height: 200px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+
+.tip-form{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background-color: #454545;
+    padding: 25px;
+    width: 100%;
+    margin-top: 20px;
+      border: 2px solid black;
+}
+
+.submit-button{
+     background-color: #5D9B2E;
+    padding: 10px 40px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: white;
+}
+
+.submit-button:hover{
+      background-color: #4d7e26;
+}
+
+.cancel-button:hover{
+       background-color: #5a5a5a;
+}
+
+.cancel-button{
+     background-color: #7a7a7a;
+    padding: 10px 40px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: white;
+}
+
+.button-container{
+    display: flex;
+    gap: 9px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.load{
+    display: flex;
+    gap: 4px;
+}
+
+.steps-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    .tip-form{
+        border: none;
+        background-color: transparent;
+    }
+}

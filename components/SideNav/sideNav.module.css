@@ -1,0 +1,94 @@
+
+.sidenav {
+     background-color: rgb(56, 52, 52);
+     position: fixed;
+     top: 0%;
+     left: 0%;
+     animation: drawer-slide 0.3s ease;
+     height: 100dvh;
+     padding: 3px;
+     z-index: 2;
+     border-radius: 20px;
+
+     
+}
+
+@keyframes drawer-slide {
+     from {
+          opacity: 0;
+          transform: translateX(-20px);
+     }
+
+     to{
+          opacity: 1;
+          transform: translateX(0);
+     }
+}
+
+.logo{
+     display: flex;
+     gap: 5px;
+     padding: 10px;
+     
+     align-items: center;
+     font-size: 1.1rem;
+}
+
+.nav-list{
+     padding: 0;
+     list-style: none;
+     width: 100%;
+     border-bottom: 1.3px solid black;
+     font-size: 1.2rem;
+}
+
+.nav-list li{
+     padding: 10px;
+     width: 100%;
+     min-width: 250px;
+     margin-top: 5px;
+}
+
+.nav-list li:hover{
+     color: yellow;
+    
+     border-left: 3px solid yellow;
+}
+
+.tip-submit-button{
+     background-color: #65b825;
+     color: white;
+     width: 100%;
+     padding: 10px 30px;
+     cursor: pointer;
+     text-transform: uppercase;
+     border: 2px solid black;
+}
+
+.tip-submit-button:hover{
+    background-color: yellow;
+    color: black;
+}
+
+.close-button img{
+  width: 13px;
+  height: 13px;
+}
+
+.close-button{
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+}
+
+.logo-container{
+     display: flex;
+     border-bottom: 1.3px solid black;
+     justify-content: space-between;
+}
+
+@media (min-width: 600px) {
+     .sidenav{
+          display: none;
+     }
+}

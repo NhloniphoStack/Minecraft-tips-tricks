@@ -1,0 +1,33 @@
+
+
+.tips-container{
+    width: min(100% - 2rem, 1200px);
+    margin-inline: auto;
+    padding-top: 30px;
+}
+
+.tips-layout{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(0, 1fr));
+}
+
+.sort-search-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+     margin-top: 10px;
+}
+
+
+
+@media (min-width: 600px) {
+    .search-form-container{
+   width: 100%;
+   display: flex;
+   justify-content: end;
+}
+
+
+}
+

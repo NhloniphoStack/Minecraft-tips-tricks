@@ -1,0 +1,44 @@
+.source_name{
+     background-color: #5D9B2E;
+     padding: 20px;
+     text-transform: uppercase;
+}
+
+.news-card{
+    max-width: 300px;
+   
+    border: 2px solid black;
+}
+
+.content{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(75, 75, 75);
+}
+
+.date{
+    color: rgb(128, 127, 127);
+    font-size: 0.9rem;
+}
+
+.source{
+    color: yellow;
+    margin-top: 10px;
+}
+
+.source_title{
+    margin-top: 7px;
+    display: -webkit-box;
+    line-clamp: 3;
+   
+    font-size: 1.3rem;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.source:hover{
+    text-decoration: underline;
+}

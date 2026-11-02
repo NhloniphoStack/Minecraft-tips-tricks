@@ -1,0 +1,51 @@
+
+
+.empty-results{
+    background-color: rgb(80, 80, 80);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+    gap: 10px;
+    margin-top: 20px;
+    text-align: center;
+    animation: slide 0.6s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+
+.browse-button{
+     background-color: #5D9B2E;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.browse-button:hover{
+    background-color: #487524;
+}
+
+.title{
+    font-size: 2.6rem;
+     margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.alert{
+    font-size: 0.9rem;
+    color: rgb(141, 141, 141);
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

@@ -1,0 +1,101 @@
+
+
+
+.progress-bar{
+    background-color: rgb(41, 41, 41);
+    width: 300px;
+    height: 20px;
+    overflow: hidden;
+   border: 2px solid grey;
+}
+
+.progress-bar::after{
+    content: "";
+    display: block;
+    width: 35%;
+    height: 100%;
+    background-color: #5D9B2E;
+    animation: loading 1.5s ease-in-out infinite;
+
+}
+
+.grass{
+    animation: bounce 0.7s infinite ease-in-out;
+}
+
+.dirt{
+    animation: bounce 0.6s infinite ease-in-out;
+}
+
+.stone{
+    animation: bounce 0.9s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0);}
+    50%{transform: translateY(-16px);}
+}
+
+
+
+@keyframes loading {
+
+    0%{
+        transform: translateX(-100%);
+    }
+
+    100%{
+        transform: translateX(300%);
+    }
+    
+}
+
+.title{
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+
+.loading-container{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loader{
+    width: 50%;
+     height: 20px;
+     background-color: #5D9B2E;
+}
+
+
+.grass{
+    width: 30px;
+    height: 30px;
+      border: 2px solid black;
+    background-color: #5D9B2E;
+}
+
+.dirt{
+    width: 30px;
+    height: 30px;
+     border: 2px solid black;
+     background-color: #8B5A2B;
+    
+
+}
+
+.stone{
+     width: 30px;
+    height: 30px;
+      border: 2px solid black;
+     background-color: #5a5959; 
+}
+
+.blocks{
+    display: flex;
+    gap: 6px;
+    margin-bottom: 10px;
+}

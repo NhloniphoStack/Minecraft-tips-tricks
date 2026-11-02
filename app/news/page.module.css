@@ -1,0 +1,27 @@
+
+.heading{
+   
+    border-bottom: 2px solid yellow;
+    text-transform: uppercase;
+    max-width: 390px;
+    padding-bottom: 10px;
+}
+
+
+
+.news-container{
+    width: min(100% - 2rem, 1200px);
+    margin-inline: auto;
+    margin-top: 20px;
+}
+
+.user-note{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.news-browse{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

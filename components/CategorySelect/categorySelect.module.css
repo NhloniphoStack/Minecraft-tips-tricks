@@ -1,0 +1,49 @@
+
+
+.select-button{
+     background-color: #5D9B2E;
+     padding: 10px 20px;
+     color: white;
+     border: 2px solid black;
+
+}
+
+.select-list{
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    max-width: 107px;
+    position: absolute;
+    background-color: rgb(76, 76, 76);
+    border: 2px solid black;
+    animation: slide 0.6s ease-in-out;
+}
+
+.tick{
+    font-size: 0.8rem;
+    margin-right: 4px;
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.select-list li{
+    padding: 10px;
+    width: 100%;
+    cursor: pointer
+    
+}
+
+.select-list li:hover{
+    background-color: rgb(255, 225, 0);
+    color: black;
+}

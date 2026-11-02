@@ -1,0 +1,14 @@
+
+.service-layout{
+     display: grid;
+      gap: 10px;
+      margin-bottom: 10px;
+     grid-template-columns: repeat(2, minmax(130px, 1fr));
+      
+}
+
+@media (min-width: 600px) {
+  .service-layout{
+     grid-template-columns: repeat(4, minmax(130px, 200px));
+  }
+}
